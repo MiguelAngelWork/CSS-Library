@@ -1,0 +1,74 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+
+  }
+
+
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+}
+  
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(43, 41, 41);
+    height: 80px;
+    max-width: 900px;
+    padding: 0 150px;
+    color: white;
+}
+
+.nav-links
+{
+   display: flex;
+   text-decoration: none;
+   color: white;
+   list-style-type: none;
+   justify-content: space-evenly;
+   padding: 0 20px
+}
+
+li
+{
+  list-style: none;  
+  text-decoration: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.nav-links li a{ color:white;
+    text-decoration:none
+
+}
+.nav-links a:hover,a:active {
+    color:black;
+    background-color: white;
+    text-decoration: underline;
+    font-weight: 700;
+    transform: scale(1.4);
+}
+
+.btn{
+    background-color: #17a2b8;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    box-shadow: 5px 5px black;
+    }
